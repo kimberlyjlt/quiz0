@@ -8,6 +8,7 @@ class WelcomeController < ApplicationController
   end
 
   def info
+  	
   end
 
   def looptests
