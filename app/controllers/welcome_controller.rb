@@ -1,4 +1,6 @@
 class WelcomeController < ApplicationController
+  
+	include WelcomeHelper
   def about
   end
 
@@ -10,5 +12,6 @@ class WelcomeController < ApplicationController
 
   def looptests
   end
-  
+
 end
+
