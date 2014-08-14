@@ -1,4 +1,11 @@
 Rails.application.routes.draw do
+  get 'outreach/index'
+  post "outreach/save" => "outreach#save"
+  get "outreach/save"
+  get "outreach/thanks"
+
+  get 'contact/index' 
+  post "contact/save" => "contact#save"
   resources :images
 
   root 'welcome#about'
@@ -10,7 +17,6 @@ Rails.application.routes.draw do
   get 'welcome/info'
 
   get 'welcome/looptests'
-
 
   resources :users
 

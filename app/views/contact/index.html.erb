@@ -1,0 +1,14 @@
+<h1>Contact Me</h1>
+<%=form_tag("/contact/save") do%>
+	First Name: <%=text_field_tag :first_name%>
+	<br>
+	Last Name: <%=text_field_tag :last_name%>
+	<br>
+	Email: <%=text_field_tag :email%>
+	<br>
+	<%=submit_tag :submit%>
+
+
+	<br><br>
+
+<%end%> 

@@ -1,0 +1,17 @@
+<h1>Outreach</h1>
+<%=form_tag("/outreach/save") do%>
+	Name: <%=text_field_tag :name%>
+	<br>
+	Address: <%=text_field_tag :address%>
+	<br>
+	Status:
+	<br><br>
+
+
+	<%=submit_tag "Submit", class: "btn btn-success"%>
+
+
+	<br><br>
+
+<%end%> 
+
